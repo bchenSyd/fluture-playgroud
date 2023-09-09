@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "debug": "node --inspect-brk  --inspect=9222 index.js "
+    "debug": "node --inspect-brk index.js "
   },
   "author": "",
   "license": "ISC",
