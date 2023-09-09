@@ -25,4 +25,4 @@ const getPackageName = (file) =>
                                       // encase :: (Throwing e) a(para1) r(eturn) -> a (para1) -> Future e(rror) r(eturn)
     .pipe(map((x) => x.name));
 
-getPackageName("package1.json").pipe(fork(console.error)(console.log));
+getPackageName("package.json").pipe(fork(console.error)(console.log));
